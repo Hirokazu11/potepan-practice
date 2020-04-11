@@ -88,7 +88,7 @@ text-decoration:none;
 
 
 /* 本文　コースについて*/
-.top-wrapper {
+.wrapper {
  background-color: #faf8ee;
 }
 
@@ -98,7 +98,7 @@ h1 {
  padding: 50px 300px;
 }
 
-.top-contents {
+.top-contents h2, p {
  text-align: center;
  padding-top: 20px;
 }
@@ -122,9 +122,9 @@ h1 {
 /* 全コースの共通POINT　*/
 .middle-wrapper {
  text-align: center; 
+ width: 80%;
+ background-color: white;
 }
-
-
 
 .point-logo {
  width:50px;
@@ -141,7 +141,7 @@ h1 {
 }
 
 .course-point {
- 
+  text-align: center;
 }
 
 .point-image {
@@ -283,6 +283,7 @@ h1 {
 .students-voice  {
   text-align: center;
   margin-top: 150px;
+  background-color: #e2e2e2;
 }
 
 .students-voice h2 {
@@ -325,6 +326,7 @@ h1 {
   background-color: #f79214;
   width: 100%;
   margin-top: 100px;
+  position: relative;
 }
 .site-fooder a {
   color: white;
@@ -366,9 +368,13 @@ h1 {
   font-size: 40px;
   background-color: white;
   color: #f79214;
-  margin-bottom: 100px;
+  
   border-style: border;
   border-radius: 100px;
+  position: absolute;
+  top: -25px;
+  right: 200px;
+  margin: 0px;
 }
 
 .fooder-icon img {
