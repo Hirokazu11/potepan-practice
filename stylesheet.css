@@ -1,0 +1,376 @@
+body {
+  font-family: "Noto Sans JP";
+}
+
+a {
+text-decoration:none;
+}
+a:hover {
+text-decoration:none;
+}
+
+a:visited {
+text-decoration:none;
+}
+
+
+/* ヘッダー作成　*/
+
+.header-list li {
+  font-family: "Noto Sans JP",sans-serif;
+  list-style: none;
+  font-weight: 700;
+  float: left;
+  font-size: 14px;
+  margin: 10px 0px 10px 30px;
+}
+.header-list  span{
+ display: block;  /* spanで囲んだ部分を改行する */
+}
+
+.header-list a {
+  color: black;
+}
+.selected1 {
+  color: #f79314;
+}
+
+.selected2 {
+  color: #FFF;
+  background-color: #f79314;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.site-header {
+  background-color: white;
+  height: 50px;
+}
+
+.header-logo{
+  float: left;
+}
+
+.header-logo-sp {
+  width:200px;
+  margin: 20px 140px 10px 70px;  
+}
+
+/* sumahoヘッダー作成　*/
+.menu-sumafo {
+	padding-top: 5px;
+	display: inline-block;
+	text-align: right;
+}
+
+#input {
+	display: none;
+}
+.line {
+	width: 30px;
+	height: 3px;
+	background-color: black;
+	margin: 10px;
+}
+
+#content {
+	background-color: white;
+	width: 400px;
+	height: 100%;
+	transform: translatex(250px);
+	position: fixed;
+}
+
+#input:checked ~ #content {
+	transform: translatex(-400px);
+}
+
+
+
+/* 本文　コースについて*/
+.top-wrapper {
+ background-color: #faf8ee;
+}
+
+h1 {
+ color: white;
+ background-color: #f79314;	
+ padding: 50px 300px;
+}
+
+.top-contents {
+ text-align: center;
+ padding-top: 20px;
+}
+
+.top-content {
+ border-bottom: solid;
+ font-weight: 900;
+ font-size: 30px; 
+}
+
+.top-explanation p {
+ font-size: 16px; 
+}
+
+ .explanation {
+ font-size: 20px;
+ font-weight: 700;
+ padding: 10px 0px;
+}
+
+/* 全コースの共通POINT　*/
+.middle-wrapper {
+ text-align: center; 
+}
+
+
+
+.point-logo {
+ width:50px;
+}
+
+.middle-wrapper h3 {
+ font-size: 30px;
+ font-weight: 700;
+}
+
+.course-points { 
+ display: flex;
+ justify-content: center;
+}
+
+.course-point {
+ 
+}
+
+.point-image {
+ display: inline-block;
+ width:60%;
+}
+
+.point-name {
+ width: 280px;
+ font-size: 14px;
+ color: white;
+ background-color: black;
+ border-radius: 30px;
+ margin-bottom: 20px; 
+}
+
+.point-explanation {
+ font-size: 16px;
+}
+
+/* コース比較表 */
+.table {
+ margin:0 auto;
+ margin-bottom: 200px;
+}
+
+.table-icon img {
+ width: 100px;
+}
+
+.table-name {
+ float: left;
+}
+
+.table-name span{
+ display: block;
+}
+
+.line-content0 {
+ background-color: #f79314;
+ color: white;
+ text-align: center;
+}
+.line-name {
+ background-color: #ccffff;
+}
+.line-content2 {
+ background-color: #faf8ee;
+ text-align: center;
+}
+
+/* コースプラン */
+.course-plan {
+  text-align: center;
+  width: 100%;
+}
+
+.course-anchor {
+  display: inline-block;
+  padding: 15px 60px;
+  background-color: white;
+  border-style: solid;
+  border-color: #f79214;
+  border-radius: 5px;  
+}
+
+.course-anchor a {
+  color: #f79214;
+  display: block;
+}
+
+.course-anchor:hover {
+  color: white;
+  background-color: #f79214;
+}
+
+.course-content {
+  background-color: #FFFFF0;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.topic {
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.course-name  span{
+ display: block;  /* spanで囲んだ部分を改行する */
+}
+
+.topic h4,p { 
+ text-align: left;
+}
+
+
+.subtopic-name {
+  color: #f79214;
+  background-color: #FFFFF0;
+  width: 20%;
+  margin-left: 10px;
+}
+
+.subtopic p span {
+  display: block;
+}
+
+.task-topic {
+  border-style: solid;
+  border-color: #f79214; 
+  position: relative;
+  margin-bottom: 30px;
+  padding: 0px 0px 25px 0px;
+}
+
+
+.task-image {
+  width: 250px;
+  float: left;
+  margin-right: 20px;
+}
+
+.task-name {
+  color: white;
+  background-color: #f79214;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin:0px;
+  padding: 5px 10px;
+}
+
+
+
+
+/* 受講生の声 */
+.students-voice  {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.students-voice h2 {
+  padding: 0px;
+}
+
+.students {
+ display: flex;
+ justify-content: center;
+}
+
+.student a {
+  display: inline-block; 
+  width: 60%;
+}
+
+.student a span {
+  display: block;
+}
+
+.student a:hover {
+  color: #f79214;
+}
+
+
+.student-icon {
+  width: 300px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.student-icon:hover {
+  transform: scale(1.2);
+}
+
+/* フッダー */
+.site-fooder {
+  float: left;
+  color: white;
+  background-color: #f79214;
+  width: 100%;
+  margin-top: 100px;
+}
+.site-fooder a {
+  color: white;
+}
+
+.fooder-info {
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.fooder-logo {
+  font-size: 30px;
+}
+
+.potepan-sns img{
+  width: 50px;
+  margin-right: 5px;
+}
+
+.fooder-lists {
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.fooder-lists li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.fooder-icon {
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.fooder-icon a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  background-color: white;
+  color: #f79214;
+  margin-bottom: 100px;
+  border-style: border;
+  border-radius: 100px;
+}
+
+.fooder-icon img {
+  width: 150px;
+}
