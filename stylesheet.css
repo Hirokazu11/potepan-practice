@@ -96,6 +96,7 @@ h1 {
  color: white;
  background-color: #f79314;	
  padding: 50px 300px;
+ margin-bottom: 0;
 }
 
 .top-contents {
@@ -214,8 +215,11 @@ h1 {
 }
 
 .course-anchor:hover {
-  color: white;
   background-color: #f79214;
+}
+
+.course-anchor:hover a {
+  color: white;
 }
 
 .course-content {
@@ -235,11 +239,6 @@ h1 {
  display: block;  /* spanで囲んだ部分を改行する */
 }
 
-.topic h4,p { 
- text-align: left;
-}
-
-
 .subtopic-name {
   color: #f79214;
   background-color: #FFFFF0;
@@ -256,7 +255,8 @@ h1 {
   border-color: #f79214; 
   position: relative;
   margin-bottom: 30px;
-  padding: 0px 0px 25px 0px;
+  padding: 0px 0px 3px 0px;
+  display: flex;
 }
 
 
@@ -294,9 +294,12 @@ h1 {
  justify-content: center;
 }
 
+.student {
+  width: 33%;
+}
+
 .student a {
   display: inline-block; 
-  width: 60%;
 }
 
 .student a span {
@@ -324,7 +327,6 @@ h1 {
   color: white;
   background-color: #f79214;
   width: 100%;
-  margin-top: 100px;
 }
 .site-fooder a {
   color: white;
