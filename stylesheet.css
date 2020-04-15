@@ -105,10 +105,20 @@ h1 {
 }
 
 .top-content {
- border-bottom: solid;
  font-weight: 900;
  font-size: 30px; 
 }
+
+.top-content::after {
+  content: '';
+  display: block;
+  background-color: #f79214;
+  height: 5px;
+  width: 50px;
+  margin: 0 auto;
+}
+
+
 
 .top-explanation p {
  font-size: 16px; 
@@ -141,9 +151,6 @@ h1 {
  justify-content: center;
 }
 
-.course-point {
- 
-}
 
 .point-image {
  display: inline-block;
@@ -157,7 +164,7 @@ h1 {
  background-color: black;
  border-radius: 30px;
  margin-bottom: 20px;
- margin: 0 auto; 
+ margin: 0 auto 20px auto; 
 }
 
 .point-explanation {
@@ -167,7 +174,7 @@ h1 {
 /* コース比較表 */
 .table {
  margin:0 auto;
- margin-bottom: 200px;
+ margin-bottom: 150px;
 }
 
 .table-icon img {
@@ -327,7 +334,7 @@ h1 {
 
 /* フッダー */
 .site-fooder {
-  float: left;
+  display: flex;
   color: white;
   background-color: #f79214;
   width: 100%;
@@ -364,6 +371,7 @@ h1 {
 .fooder-icon {
   display: inline-block;
   margin-left: 200px;
+  align-self: flex-end;
 }
 
 .fooder-icon a {
