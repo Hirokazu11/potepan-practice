@@ -151,12 +151,13 @@ h1 {
 }
 
 .point-name {
- width: 280px;
+ width: 70%;
  font-size: 14px;
  color: white;
  background-color: black;
  border-radius: 30px;
- margin-bottom: 20px; 
+ margin-bottom: 20px;
+ margin: 0 auto; 
 }
 
 .point-explanation {
@@ -262,7 +263,6 @@ h1 {
 
 .task-image {
   width: 250px;
-  float: left;
   margin-right: 20px;
 }
 
@@ -283,6 +283,7 @@ h1 {
 .students-voice  {
   text-align: center;
   margin-top: 150px;
+  background-color: #F6F6F6;
 }
 
 .students-voice h2 {
@@ -295,11 +296,14 @@ h1 {
 }
 
 .student {
-  width: 33%;
+  width: 25%;
 }
 
 .student a {
-  display: inline-block; 
+  display: inline-block;
+  color: black;
+  margin-bottom: 40px;
+  padding: 0px 100px;
 }
 
 .student a span {
@@ -327,6 +331,7 @@ h1 {
   color: white;
   background-color: #f79214;
   width: 100%;
+  position: relative;
 }
 .site-fooder a {
   color: white;
@@ -371,6 +376,10 @@ h1 {
   margin-bottom: 100px;
   border-style: border;
   border-radius: 100px;
+  position: absolute;
+  top: -25px;
+  right: 200px;
+  margin: 0px;
 }
 
 .fooder-icon img {
