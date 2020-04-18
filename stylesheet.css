@@ -76,13 +76,13 @@ text-decoration:none;
 #content {
 	background-color: white;
 	width: 400px;
-	height: 100%;
-	transform: translatex(250px);
+  height: 100%;
+  display: none;
 	position: fixed;
 }
 
 #input:checked ~ #content {
-	transform: translatex(-400px);
+  display: block;
 }
 
 
@@ -302,15 +302,10 @@ h1 {
  justify-content: center;
 }
 
-.student {
-  width: 25%;
-}
-
 .student a {
   display: inline-block;
   color: black;
   margin-bottom: 40px;
-  padding: 0px 100px;
 }
 
 .student a span {
