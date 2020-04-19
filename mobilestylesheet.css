@@ -14,6 +14,11 @@
 		display: none;
 	}
 
+	.menu-sumafo {
+		display: inline-block;
+		text-align: right;
+	}
+
 	h1 {
 		padding: 50px 0px;
 		text-align: center;
@@ -62,8 +67,9 @@
 	}
 
 	.students {
+		width: 100%;
 		overflow: scroll;
-		overflow-y: hidden;		
+		overflow-y: hidden;	
 	}
 
 	.student {
@@ -77,9 +83,3 @@
 	.fooder-icon a {		
 		right: 5px;
 	}
-
-@media (min-width: 670px) {
-	.menu-sumafo {
-		display: none;
-	}
-{

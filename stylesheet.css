@@ -59,44 +59,62 @@ text-decoration:none;
 /* sumahoヘッダー作成　*/
 .menu-sumafo {
 	padding-top: 5px;
-	display: inline-block;
-	text-align: right;
+	display: none;
 }
 
 #input {
-	display: none;
+  display: none;
+  text-align: right;
 }
 .line {
 	width: 30px;
 	height: 3px;
 	background-color: black;
-	margin: 10px;
+  margin: 10px 0px;
 }
 
 #content {
-	background-color: white;
-	width: 400px;
-	height: 100%;
-	transform: translatex(250px);
-	position: fixed;
+	background-color: black;
+	width: 100%;
+	height: calc(70% - 72px);
+	display: none;
+  position: fixed;
+  left: 0;
+  opacity: 0.8;
+}
+
+#content ul {
+  list-style: none;
+  text-align: center;
+}
+
+#content li {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 #input:checked ~ #content {
-	transform: translatex(-400px);
+	display: block;
 }
 
 
 
 /* 本文　コースについて*/
-.top-wrapper {
- background-color: #faf8ee;
-}
-
 h1 {
  color: white;
  background-color: #f79314;	
  padding: 50px 300px;
  margin-bottom: 0;
+}
+
+.background-1 {
+  background-color: #faf8ee;
+}
+
+.top-wrapper {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .top-contents {
@@ -132,9 +150,10 @@ h1 {
 
 /* 全コースの共通POINT　*/
 .middle-wrapper {
- text-align: center; 
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
 }
-
 
 
 .point-logo {
@@ -164,7 +183,7 @@ h1 {
  background-color: black;
  border-radius: 30px;
  margin-bottom: 20px;
- margin: 0 auto 20px auto; 
+ margin: 0 auto 20px auto;
 }
 
 .point-explanation {
@@ -173,6 +192,7 @@ h1 {
 
 /* コース比較表 */
 .table {
+ width: 70%;
  margin:0 auto;
  margin-bottom: 150px;
 }
@@ -204,8 +224,9 @@ h1 {
 
 /* コースプラン */
 .course-plan {
+  width: 70%;
+  margin: 0 auto;
   text-align: center;
-  width: 100%;
 }
 
 .course-anchor {
@@ -232,8 +253,12 @@ h1 {
 
 .course-content {
   background-color: #FFFFF0;
-  width: 70%;
+  
   margin: 0 auto;
+}
+
+.course-content h4,p {
+  text-align: left;
 }
 
 .topic {
@@ -287,10 +312,14 @@ h1 {
 
 
 /* 受講生の声 */
-.students-voice  {
-  text-align: center;
-  margin-top: 150px;
+.background-3 {
   background-color: #F6F6F6;
+}
+
+.students-voice  {
+  width: 70%;
+  margin: 150px auto 0 auto;
+  text-align: center;
 }
 
 .students-voice h2 {
@@ -298,19 +327,14 @@ h1 {
 }
 
 .students {
- display: flex;
- justify-content: center;
-}
-
-.student {
-  width: 25%;
+ display: inline-flex;
 }
 
 .student a {
   display: inline-block;
   color: black;
   margin-bottom: 40px;
-  padding: 0px 100px;
+  padding: 0px 20px;
 }
 
 .student a span {
@@ -320,7 +344,6 @@ h1 {
 .student a:hover {
   color: #f79214;
 }
-
 
 .student-icon {
   width: 300px;
@@ -333,11 +356,13 @@ h1 {
 }
 
 /* フッダー */
+footer {
+  background-color: #f79214;
+}
 .site-fooder {
   display: flex;
   color: white;
-  background-color: #f79214;
-  width: 100%;
+  width: 70%;
   position: relative;
 }
 .site-fooder a {
