@@ -45,6 +45,8 @@ text-decoration:none;
 .site-header {
   background-color: white;
   height: 50px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .header-logo{
@@ -101,11 +103,16 @@ text-decoration:none;
 
 
 /* 本文　コースについて*/
+.h1-content {
+  background-color: #f79314;
+  margin-top: 10px;
+  padding: 35px 0px;
+  text-align: center;
+}
+
 h1 {
- color: white;
- background-color: #f79314;	
- padding: 50px 300px;
- margin-bottom: 0;
+ color: white; 
+ width: 70%;
 }
 
 .background-1 {
@@ -257,7 +264,7 @@ h1 {
   margin: 0 auto;
 }
 
-.course-content h4,p {
+.course-content h4, .course-content p {
   text-align: left;
 }
 
@@ -363,6 +370,7 @@ footer {
   display: flex;
   color: white;
   width: 70%;
+  margin: 0 auto;
   position: relative;
 }
 .site-fooder a {
@@ -371,7 +379,6 @@ footer {
 
 .fooder-info {
   display: inline-block;
-  margin-left: 200px;
 }
 
 .fooder-logo {
@@ -411,7 +418,7 @@ footer {
   border-radius: 100px;
   position: absolute;
   top: -25px;
-  right: 200px;
+  right: 50px;
   margin: 0px;
 }
 

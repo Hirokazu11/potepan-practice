@@ -80,6 +80,10 @@
 		display: block;
 	}
 
+	.fooder-lists {
+		margin-left: 0px;
+	}
+
 	.fooder-icon a {		
 		right: 5px;
 	}
